@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+
+/* styleng for menu header */
+.NAV-LINK{
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+.NAV-LINK .LOGO{
+    font-size: 1.4rem;
+    font-style: italic;
+    color: rgb(195, 195, 195);
+    top: 4px;
+    margin-left: 20px;
+    position: absolute;
+}
+.NAV-LINK .NAV{
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.DROPDOWN-MENU{
+    min-width: 7.3rem;
+}
+
+.cart{
+    max-width: 300px;
+    max-height: 600px;
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    transform: translate3d(-75px, 41px, 0px);
+
+}
+
+/* styleng for slider */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    margin: 10px 20px 0 20px;
+}
+main img{
+    height: 600px;
+}
+
+
+
+/* styleng for cards*/
+section{
+    margin: 50px 20px 0px 20px;
+}
+.col{
+    margin-bottom: 15px;
+    width: 400px;
+    height: 600px;
+}
+.card-img-top{
+    width: 200px;
+    margin: auto;
+}
+.card-body{
+    text-align: center;
+}
+.card-body .card-title{
+    text-decoration: overline;
+}
+
+
+
+
+/*styleng for footer */
+footer{
+    height: 200px;
+    background-color: rgb(31, 31, 31);
+    position: relative;
+}
+
+
+
+
+/* styleng for About Menu*/
+
+
+/* styleng for contact input*/
+.Contact-Image-Cute{
+    top: -90px;
+    left: 20px;
+}
+
+@media (max-width: 992px){
+    .Contact-Image-Cute{
+        top: -50px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .Contact-Image-Cute{
+        top: -20px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 576px){
+    .Contact-Image-Cute{
+        top: -50px;
+        left: 20px;
+    }
+}
+
+/* styleng for Sing In input*/
+.SING-IN{
+    margin-top: 70px;
+    width: 500px;
+}
+
+
+/* styleng for Sing Up input*/
